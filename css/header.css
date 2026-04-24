@@ -3,8 +3,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 38px 48px;
+  align-items: center;
+  padding: 37px 48px;
 }
 
 .logo {
@@ -14,7 +14,7 @@ header {
 }
 
 .navigation-menu {
-    margin-top: 25px;
+  margin-top: 5px;
 }
 
 nav {
