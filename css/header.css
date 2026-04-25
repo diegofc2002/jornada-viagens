@@ -14,11 +14,11 @@ header {
   height: 64px;
 }
 
-.logo-mobile {
+.img-mobile {
   display: block;
 }
 
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 
@@ -86,13 +86,11 @@ nav {
     height: 64px;
   }
 
-  /* img-desktop */
-  .logo-desktop {
+  .img-desktop {
     display: block;
   }
 
-  /* img-mobile */
-  .logo-mobile {
+  .img-mobile {
     display: none;
   }
 
