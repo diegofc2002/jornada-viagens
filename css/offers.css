@@ -1,12 +1,9 @@
-.offers {
-  margin-bottom: 104px;
-}
-
 .offers-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin: 0 auto;
 }
 
 .offers-cards .card {
@@ -21,11 +18,7 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
-  background-color: transparent;
 }
 
 .offers-cards .card header p {
