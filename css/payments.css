@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-.payments .content-container {
-  display: flex;
-}
-
 .payments .content-container .image-content .image.suitcase {
   background: url(../img/suitcase-mobile.jpg);
   background-repeat: no-repeat;
@@ -52,6 +48,7 @@
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
+    display: flex;
     justify-content: space-between;
   }
 
@@ -61,5 +58,6 @@
 
   .payments .content-container .image-content {
     width: 790px;
+    margin: 0;
   }
 }
