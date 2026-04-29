@@ -74,6 +74,12 @@
   .destinations {
     width: 900px;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations {
+    width: 1200px;
+  }
 
   .destinations-items {
     flex-direction: row;
@@ -82,15 +88,5 @@
 
   .destinations .item {
     flex: 1;
-  }
-
-  .destinations .item .img-item {
-    height: 452px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .destinations {
-    width: 1200px;
   }
 }
