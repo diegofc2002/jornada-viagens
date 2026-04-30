@@ -1,4 +1,5 @@
-.payments .image-content {
+.payments .image-content,
+.travel-packages .payments .image-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -26,6 +27,30 @@
   grid-column: span 2;
 }
 
+/* TRAVEL PACKAGES */
+
+.travel-packages.payments .content-container .image-content .image.house-japan {
+  background: url(../img/travel-packages/house-japan-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.travel-packages.payments .content-container .image-content .image.city-japan {
+  background: url(../img/travel-packages/city-japan-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.travel-packages.payments
+  .content-container
+  .image-content
+  .image.person-japan {
+  background: url(../img/travel-packages/person-japan-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-content .image.suitcase {
     background: url(../img/suitcase-tablet.jpg);
@@ -44,6 +69,48 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /* TRAVEL PACKAGES */
+
+  .travel-packages.payments
+    .content-container
+    .image-content
+    .image.house-japan {
+    background: url(../img/travel-packages/house-japan-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .travel-packages.payments
+    .content-container
+    .image-content
+    .image.city-japan {
+    background: url(../img/travel-packages/city-japan-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .travel-packages.payments
+    .content-container
+    .image-content
+    .image.person-japan {
+    background: url(../img/travel-packages/person-japan-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024) {
+  .travel-packages.payments
+    .content-container
+    .image-content
+    .image.house-japan {
+    background: url(../img/travel-packages/house-japan-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -57,6 +124,21 @@
   }
 
   .payments .content-container .image-content {
+    width: 790px;
+    margin: 0;
+  }
+
+  /* TRAVEL PACKAGES */
+  .travel-packages.payments .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .travel-packages.payments .content-container .text-content {
+    width: 361px;
+  }
+
+  .travel-packages.payments .content-container .image-content {
     width: 790px;
     margin: 0;
   }
