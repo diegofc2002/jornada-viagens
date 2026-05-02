@@ -1,0 +1,104 @@
+.section-tokyo .section-title {
+  width: 312px;
+  margin: 88px auto 56px;
+}
+
+.section-tokyo h2 {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+}
+
+.section-tokyo h3 {
+  font-size: 28px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  font-weight: var(--title-weight);
+}
+
+.section-tokyo p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
+.section-tokyo .content-tokyo .image-tokyo-arrival {
+  background: url(../img/blog/tokyo-arrival-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 360px;
+  margin: 24px auto 32px;
+}
+
+.section-tokyo .content-tokyo .image-tokyo-accommodation {
+  background: url(../img/blog/tokyo-hotel-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  margin: 32px auto 8px;
+}
+
+/* ADICIONAR @media screen PARA TABLET E DESKTOP */
+
+@media screen and (min-width: 768px) {
+  .section-tokyo .content-tokyo.arrival {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .section-tokyo .content-tokyo.arrival .image-tokyo-arrival {
+    flex-shrink: 0;
+    width: 312px;
+    height: 360px;
+    margin: 0;
+  }
+
+  .section-tokyo h3 {
+    margin-top: 0;
+  }
+
+  .section-tokyo .content-tokyo .image-tokyo-accommodation {
+    background: url(../img/blog/tokyo-hotel-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    margin: 32px auto 8px;
+  }
+
+  .section-tokyo .content-tokyo.accommodation figcaption.tokyo-description {
+    margin-bottom: 32px;
+  }
+
+  .exploring-city,
+  .shopping,
+  .gastronomy p {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-tokyo .content-tokyo.arrival .image-tokyo-arrival {
+    width: 540px;
+  }
+
+  .section-tokyo .content-tokyo .image-tokyo-accommodation {
+    background: url(../img/blog/tokyo-hotel-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-tokyo .content-tokyo.arrival .image-tokyo-arrival {
+    width: 588px;
+  }
+}

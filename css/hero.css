@@ -73,6 +73,45 @@
   font-weight: var(--text-weight);
 }
 
+/* BLOG */
+
+.blog .hero {
+  margin-bottom: 88px;
+}
+
+.blog .hero-img {
+  height: 460px;
+  background: url(../img/blog/blog-hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog .hero-content {
+  padding: 65px 24px;
+}
+
+.blog .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.blog .hero-content hr {
+  border: none;
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  margin: 16px 0 32px;
+}
+
+.blog .hero-content p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -110,6 +149,25 @@
   .travel-packages.bottom-hero .hero-img {
     height: 400px;
     background: url(../img/travel-packages/travel-packages-bottom-hero-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* BLOG */
+
+  .blog .hero-content {
+    padding: 210px 70px 107px;
+  }
+
+  .blog .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .blog .hero-img {
+    height: 620px;
+    background: url(../img/blog/blog-hero-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -156,12 +214,37 @@
     background-size: cover;
     background-position: center;
   }
+
+  /* BLOG */
+
+  .blog .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+
+  .blog .hero-content p {
+    width: 570px;
+  }
+
+  .blog .hero-img {
+    height: 620px;
+    background: url(../img/blog/blog-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   /* TRAVEL PACKAGES */
 
   .travel-packages .hero-content {
+    width: 1200;
+  }
+
+  /* BLOG */
+
+  .blog .hero-content {
     width: 1200;
   }
 }
