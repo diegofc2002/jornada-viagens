@@ -102,7 +102,7 @@
   }
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .travel-packages.payments
     .content-container
     .image-content

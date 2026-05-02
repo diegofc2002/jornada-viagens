@@ -183,7 +183,7 @@
     width: 1200px;
   }
 
-  .blog-items {
+  .blog .destinations-items {
     flex-direction: row;
     align-items: flex-start;
   }

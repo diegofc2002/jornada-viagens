@@ -27,8 +27,12 @@
   background: transparent;
 }
 
-.contact.forms form input#name {
+.contact.forms form input:focus {
   border-bottom: 2px solid var(--secondary-color);
+}
+
+.contact.forms form textarea:focus {
+  border: 2px solid var(--secondary-color);
 }
 
 .contact.forms form textarea {
@@ -63,7 +67,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .contact.forms .input-group {
     flex-direction: row;
     gap: 24px;
