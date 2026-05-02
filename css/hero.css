@@ -112,6 +112,52 @@
   font-weight: var(--text-weight);
 }
 
+/* CONTACT PAGE */
+
+.contact .hero {
+  margin-bottom: 88px;
+}
+
+.contact .hero-img {
+  height: 460px;
+  background: url(../img/contact/contact-hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact.bottom-hero .hero-img {
+  height: 400px;
+  background: url(../img/contact/contact-bottom-hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .hero-content {
+  padding: 65px 24px;
+}
+
+.contact .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.contact .hero-content hr {
+  border: none;
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  margin: 16px 0 32px;
+}
+
+.contact .hero-content p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -168,6 +214,33 @@
   .blog .hero-img {
     height: 620px;
     background: url(../img/blog/blog-hero-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* CONTACT PAGE */
+
+  .contact .hero-content {
+    padding: 210px 70px 107px;
+  }
+
+  .contact .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .contact .hero-img {
+    height: 620px;
+    background: url(../img/contact/contact-hero-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/contact/contact-bottom-hero-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -233,24 +306,69 @@
     background-size: cover;
     background-position: center;
   }
+
+  /* CONTACT PAGE */
+
+  .contact .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+
+  .contact .hero-content p {
+    width: 570px;
+  }
+
+  .contact .hero-img {
+    height: 620px;
+    background: url(../img/contact/contact-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/contact/contact-bottom-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   /* TRAVEL PACKAGES */
 
   .travel-packages .hero-content {
-    width: 1200;
+    width: 1200px;
   }
 
   /* BLOG */
 
   .blog .hero-content {
-    width: 1200;
+    width: 1200px;
   }
 }
 
 @media screen and (min-width: 1920px) {
+  .travel-packages .hero-content,
+  .blog .hero-content,
+  .contact .hero-content {
+    padding: 150px 160px 170px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
   .hero h2 {
     padding: 88px 160px;
+  }
+
+  /* CONTACT PAGE */
+
+  .contact.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/contact/contact-bottom-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

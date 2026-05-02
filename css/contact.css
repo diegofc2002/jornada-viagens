@@ -1,0 +1,71 @@
+.contact.forms .section-title {
+  margin-bottom: 56px;
+}
+
+.contact.forms .section-title h2 {
+  margin-top: 88px;
+}
+
+.contact.forms p {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.contact.forms form input,
+.contact.forms form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #d9d9d9;
+  outline: none;
+  padding: 8px 0;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Montserrat";
+  margin-bottom: 32px;
+  background: transparent;
+}
+
+.contact.forms form input#name {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.contact.forms form textarea {
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 12px;
+  resize: none;
+  width: 100%;
+}
+
+.contact.forms .input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact.forms footer {
+  display: flex;
+  justify-content: center;
+}
+
+.contact.forms label[for="description"] {
+  display: block;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact.forms p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contact.forms .input-group {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
